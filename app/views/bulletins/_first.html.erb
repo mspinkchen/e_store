@@ -1,0 +1,5 @@
+
+<% @bulletins.each do |bulletin| %>
+  <h5 class="d-inline"><%= bulletin.title %></h5>
+  <p><%= bulletin.body.html_safe %></p>
+<% end %>
