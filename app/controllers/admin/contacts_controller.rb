@@ -1,2 +1,2 @@
-class Admin::ContactsController < ApplicationController
+class Admin::ContactsController < Admin::BaseController
 end

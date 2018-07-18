@@ -1,2 +1,2 @@
-class Admin::BulletinsController < ApplicationController
+class Admin::BulletinsController < Admin::BaseController
 end
