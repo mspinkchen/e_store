@@ -14,18 +14,18 @@
 
 <div class="container">
   <!-- bulletin -->
-  <%#= link_to bulletins_path, class:"link-n" do %> 
+  <%= link_to bulletins_path, class:"link-n" do %> 
     <div class="row justify-content-center">
       <div class="index-bulletin d-flex col-md-8 col-10 mt-5 p-2">
         <div id="bulletin">
           <div class="bulletin-inner">
           <h5 class="d-inline"><i class="fas fa-bullhorn"></i></h5>
-          <%#= render partial: "bulletins/first" %>
+          <%= render partial: "bulletins/first" %>
           </div>   
         </div>
       </div>     
     </div>
-  <%# end %>
+  <% end %>
   
 </div>
 
@@ -55,7 +55,7 @@
     <div class="container">
       <div class="menu-col">
       <div class="row justify-content-center">
-       <%#= render partial: "menu" %>
+       <%= render partial: "menu" %>
       </div>
       </div>
     </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="d-flex justify-content-center btn-group">
           <a href="https://line.me/R/ti/p/%40kuo1137i" class= "text-center btn-mb mx-4 px-4 er-link" target="_blank">線上預訂</a>
-          <div><%#= link_to '訂購Q&A', home_questions_path, class:"btn-mb mx-4 px-4 er-link" %></div>
+          <div><%= link_to '訂購Q&A', home_questions_path, class:"btn-mb mx-4 px-4 er-link" %></div>
         </div>
       </div>
     </div>    
