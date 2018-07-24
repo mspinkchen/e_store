@@ -44,7 +44,6 @@ config/master.key
 /config/facebook.yml
 /config/email.yml
 /config/database.yml
-/config/routes.rb
 /config/initializers/carrierwave.rb
 
 # dotenv
